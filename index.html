@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    
+    <script src="p5.play.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-database.js"></script>
+
+   <script type="module">
+  
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.1.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.1.0/firebase-analytics.js";
+ 
+  const firebaseConfig = {
+    apiKey: "AIzaSyCTch_nN8qAlz0SjIEews-eX6mwaIrqQ0Q",
+    authDomain: "hotairballoon-5a332.firebaseapp.com",
+    databaseURL: "https://hotairballoon-5a332-default-rtdb.firebaseio.com",
+    projectId: "hotairballoon-5a332",
+    storageBucket: "hotairballoon-5a332.appspot.com",
+    messagingSenderId: "993989476570",
+    appId: "1:993989476570:web:45ce8626108ef7c54ee5e3",
+    measurementId: "G-CYQTF5LGXK"
+  };
+
+  
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
+
+
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <meta charset="utf-8">
+
+  </head>
+  <body>
+      <script src="sketch.js"></script>
+    </body>
+</html>
